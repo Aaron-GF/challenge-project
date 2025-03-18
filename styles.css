@@ -1,0 +1,326 @@
+body,
+html {
+    background-color: #121212;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Encabezado*/
+
+header {
+    width: 100%;
+}
+
+nav {
+    background-color: #292929;
+    padding: 5px 0;
+    border-bottom: 1px solid #555555;
+}
+
+ul {
+    margin: 0;
+}
+
+ul li {
+    display: inline-flex;
+    text-decoration: none;
+    margin: 0px 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #3f6cd4;
+    transition: color 0.5s ease, transform 0.5s ease, text-shadow 0.5 ease;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: lightskyblue;
+    transform: scale(1.1);
+    text-shadow: 0 0 5px rgba(173, 216, 230, 0.4), 0 0 10px rgba(173, 216, 230, 0.3), 0 0 15px rgba(173, 216, 230, 0.2);
+}
+
+h1 {
+    background-color: #1f1f1f;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    border-bottom: 1px solid #555555;
+}
+
+h2 {
+    text-align: center;
+}
+
+/*Encabezado*/
+
+section {
+    background-color: #292929;
+    margin: 50px;
+    border-radius: 10px;
+    border: 1px solid #555555;
+    padding: 20px;
+}
+
+section .paleta {
+    text-align: center;
+    margin-top: 500px;
+}
+
+.colores {
+    border-radius: 8px;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    box-sizing: border-box;
+    height: 200px;
+    width: 180px;
+}
+
+/*Paleta de colores*/
+
+#averd {
+    background-color: #BAFF39;
+    color: black;
+}
+
+#lima {
+    background-color: #00DD00;
+    color: black;
+}
+
+#naranja {
+    background-color: #FFAB00;
+    color: black;
+}
+
+#coral {
+    background-color: #FE3A4A;
+}
+
+#electrico {
+    background-color: #00FFFF;
+    color: black;
+}
+
+#neon {
+    background-color: #2272FF;
+}
+
+#azulado {
+    background-color: #96C2DB;
+    color: black;
+}
+
+#violeta {
+    background-color: #C5ADC5;
+    color: black;
+}
+
+/*Paleta de colores*/
+
+/*Fuentes*/
+
+#roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+#raleway {
+    font-family: "Raleway", sans-serif;
+}
+
+#big-shoulders {
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 20px;
+}
+
+#rock-salt {
+    font-family: "Rock salt", cursive;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+div {
+    display: inline-block;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*Fuentes termiana aqui*/
+
+/*botones, empieza aqui*/
+
+#buttons {
+    text-align: center;
+}
+
+#boton1 {
+    padding: 50px;
+}
+
+/*Boton 1*/
+
+.boton-1 {
+    background-color: rgb(35, 35, 241);
+    color: whitesmoke;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 7px;
+    position: relative;
+    background-size: 400%;
+    letter-spacing: 1px;
+    overflow: hidden;
+    display: flex;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 2.5em;
+}
+
+.boton-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 110%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(80deg, #8d2de2, #4e00e0);
+    transition: 0.4s;
+}
+
+.boton-1:hover::before {
+    transform: scaleX(1);
+}
+
+.boton-1 span {
+    position: relative;
+    z-index: 1;
+}
+
+.boton-1:active {
+    color: rgb(18, 18, 178);
+}
+
+/*Empieza boton 2*/
+
+#boton2 {
+    background-color: #1f1f1f;
+    padding: 15px 25px;
+    border-radius: 25px;
+    font-family: "Big shoulders", sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #02d8ff;
+    font-weight: bold;
+    border: 0.25em solid #02d8ff;
+    box-shadow: 0 0 1em 0.25em #02d8ff, 0 0 4em 1em rgba(3, 205, 241, 0.78), inset 0 0 0.75em 0.25em #02d8ff;
+    text-shadow: 0 0 0.5em #02d8ff;
+    position: relative;
+    transition: 0.3s;
+    display: flex;
+}
+
+#boton2:hover {
+    color: #021301;
+    background-color: #02d8ff;
+}
+
+#boton2:active {
+    transform: translateY(4px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#boton {
+    padding: 50px;
+    margin: 50px;
+}
+
+/*Termina Boton 2*/
+
+/*Boton 3 empieza aqui*/
+
+#boto {
+    padding: 50px;
+}
+
+#boton3 {
+    background: #FFAB00;
+    color: black;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+}
+
+#boton3::after,
+#boton3::before {
+    opacity: 0.3;
+    content: "";
+    position: absolute;
+    background: #FFAB00;
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+
+}
+
+#boton3:hover {
+    transform: translate(-12px, -12px);
+}
+
+#boton3:hover::after {
+    transform: translate(6px, 6px);
+}
+
+#boton3:hover::before {
+    transform: translate(12px, 12px);
+}
+
+#boton3:active {
+    transform: translate(0, 0);
+    color: beige;
+}
+
+/*botones, termina aquí*/
+
+footer {
+    background-color: #292929;
+    width: 100%;
+    border-top: 1px solid #555555;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    margin: 30px;
+}
+
+footer h3 {
+    margin: 30px;
+}
